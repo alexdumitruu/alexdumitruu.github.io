@@ -1,0 +1,118 @@
+.mainMenuLinkContainer {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    font-size: 16px; 
+    color: #555; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px 10px;
+    border-radius: 5px; 
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainMenuLinkContainer a {
+    color: #555;
+    text-decoration: none; 
+}
+
+.mainMenuLinkContainer a:hover {
+    color: #333; 
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fae1dd;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.valentine-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.valentine-question {
+    position: relative; /* Ensures it stays in the flow */
+    text-align: center; /* Center the text */
+    font-size: 3.5rem;
+    color: #d62828;
+    margin-bottom: 50px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.yes-btn {
+    background-color: #f4978e;
+    color: white;
+}
+
+.yes-btn:hover {
+    background-color: #d62828;
+}
+
+.no-btn {
+    background-color: #f06faf;
+    color: white;
+}
+
+.no-btn:hover {
+    background-color: #dc1c7c;
+}
+
+.hidden {
+    display: none;
+}
+
+#forced-message {
+    font-size: 2rem;
+    color: #6a4c93;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    margin-bottom: 50px;
+}
+
+.yesLink {
+    text-decoration: none;
+}
+
+.yesLink:active {
+    color: white;
+}
+
+.yesLink:visited {
+    color: white;
+}
+
+.yesLink:link {
+    color: white;
+}
+
+.gif {
+    display: none; /* Hide the GIF initially */
+    opacity: 0;    /* Make it invisible initially */
+    transition: opacity 0.5s ease-in-out; /* Smooth fade-in effect */
+    text-align: center; /* Center the GIF */
+    margin-top: 100px; /* Adjust spacing */
+    width: 450px;
+    margin-bottom: 50px;
+}
