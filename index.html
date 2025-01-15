@@ -1,1 +1,48 @@
-"Hello World!" 
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="/ValentinesDay/CSS_files/styles_index.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="container-envelope">
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">Happy<br>Valentine's<br>Day!</div>
+                <div class="heart"></div>
+            </div>
+            <div class="hearts">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="four"></div>
+                <div class="five"></div>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <div class="containerTextContent">
+        <div class="textContainer">
+            <p>Click <a href="/ValentinesDay/HTML_files/question.html">THIS</a> to answer an important question!</p>
+        </div>
+    </div>
+    <div class="easterEgg">
+        <p id="easterEggText">I love my gf</p>
+        <button class="btnShow" onclick="showPhoto()">Click to Show Photo</button>
+        <button class="btnHide" onclick="hidePhoto()">Click to Hide Photo</button>
+        <div class="photoContainer">
+            <img id="photo" src="/ValentinesDay/image.jpg" alt="Photo of my gf">
+        </div>
+    </div> 
+    <script src="/ValentinesDay/JS_files/script_index.js"></script>
+</body>
+</html>
