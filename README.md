@@ -1,2 +1,2 @@
 # alexdumitruu.github.io
- valentine's day website
+ valentine's day website, personal project
